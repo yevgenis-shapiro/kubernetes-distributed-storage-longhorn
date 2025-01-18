@@ -18,13 +18,13 @@ Cloud native distributed block storage for Kubernetes.Longhorn creates a dedicat
 ```
 
 
-### Complements :
+### Components :
 ```
-📃 Stateful Application
-📃 IOMesh Block Storage
-📃 Chunk
-📃 IOMesh CSI Driver
-📃 IOMesh Operator
+📃 Longhorn Backing Image Manager
+📃 Longhorn Instance Manager
+📃 Longhorn Manager
+📃 Longhorn Share Manager
+📃 Longhorn UI
 ```
 
 
