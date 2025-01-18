@@ -21,7 +21,7 @@ Cloud native distributed block storage for Kubernetes.Longhorn creates a dedicat
 📃 Partition your block storage into Longhorn volumes so that you can use Kubernetes volumes with or without a cloud provider
 📃 Replicate block storage across multiple nodes and data centers to increase availability
 📃 Store backup data in external storage such as NFS or AWS S3
-📃 Create cross-cluster disaster recovery volumes so that data from a primary Kubernetes cluster can be quickly recovered from backup in a second Kubernetes cluster
+📃 Cross-cluster disaster recovery volumes so that data from a primary Kubernetes cluster can be quickly recovered from backup in a second Kubernetes cluster
 📃 Schedule recurring snapshots of a volume, and schedule recurring backups to NFS or S3-compatible secondary storage
 📃 Restore volumes from backup
 📃 Upgrade Longhorn without disrupting persistent volumes
