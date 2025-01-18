@@ -1,4 +1,5 @@
-<img width="393" alt="rancher_blog_longhorn-journey-02" src="https://github.com/user-attachments/assets/013a0f69-d0f2-4387-9737-c2d3e9b87c40" />
+![Untitled](https://github.com/user-attachments/assets/b5b95840-7f02-45d5-a7a1-7e6f688795ae)
+
 
 
 ## Terraform Module - Longhorn ( Kubernetes )   | ⭐⭐⭐
