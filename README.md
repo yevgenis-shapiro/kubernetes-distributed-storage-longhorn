@@ -11,7 +11,7 @@ Cloud native distributed block storage for Kubernetes.Longhorn creates a dedicat
 ```
 ✅ Enterprise-grade distributed block storage with no single point of failure
 ✅ Incremental snapshot of block storage
-✅ Backup to secondary storage (NFS or S3-compatible object storage) built on efficient change block detection
+✅ Backup to secondary storage (NFS & S3-compatible object storage) built on efficient change block detection
 ✅ Recurring snapshots and backups
 ✅ Automated, non-disruptive upgrades. You can upgrade the entire Longhorn software stack without disrupting running storage volumes
 ✅ An intuitive GUI dashboard
