@@ -1,8 +1,5 @@
 <img width="1000" alt="rancher_blog_longhorn-journey-02" src="https://github.com/user-attachments/assets/7c98b9d1-2255-4d7d-8688-59435f17e990" />
 
-
-
-
 ## Terraform Module - Longhorn ( Kubernetes )   | ⭐⭐⭐
 Cloud native distributed block storage for Kubernetes.Longhorn creates a dedicated storage controller for each volume and synchronously replicates the volume across multiple replicas stored on multiple nodes
 
