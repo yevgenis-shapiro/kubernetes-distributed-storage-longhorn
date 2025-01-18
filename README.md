@@ -1,4 +1,5 @@
-![Untitled](https://github.com/user-attachments/assets/b5b95840-7f02-45d5-a7a1-7e6f688795ae)
+<img width="650" alt="rancher_blog_longhorn-journey-02" src="https://github.com/user-attachments/assets/7c98b9d1-2255-4d7d-8688-59435f17e990" />
+
 
 
 
