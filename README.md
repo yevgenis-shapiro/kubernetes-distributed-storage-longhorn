@@ -15,13 +15,16 @@ Cloud native distributed block storage for Kubernetes.Longhorn creates a dedicat
 ```
 
 
-### Components :
+🎯 Focus
 ```
-📃 Longhorn Backing Image Manager
-📃 Longhorn Instance Manager
-📃 Longhorn Manager
-📃 Longhorn Share Manager
-📃 Longhorn UI
+📃 Use Longhorn volumes as persistent storage for the distributed stateful applications in your Kubernetes cluster
+📃 Partition your block storage into Longhorn volumes so that you can use Kubernetes volumes with or without a cloud provider
+📃 Replicate block storage across multiple nodes and data centers to increase availability
+📃 Store backup data in external storage such as NFS or AWS S3
+📃 Create cross-cluster disaster recovery volumes so that data from a primary Kubernetes cluster can be quickly recovered from backup in a second Kubernetes cluster
+📃 Schedule recurring snapshots of a volume, and schedule recurring backups to NFS or S3-compatible secondary storage
+📃 Restore volumes from backup
+📃 Upgrade Longhorn without disrupting persistent volumes
 ```
 
 
@@ -36,10 +39,20 @@ Cloud native distributed block storage for Kubernetes.Longhorn creates a dedicat
 # Elastic
 ```
 
-### Config
-
+🧩 Config 
 ```
-terraform plan -out tfplan.out
-terraform apply tfplan.out
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: longhorn-pvc
+provisioner: driver.longhorn.io
+allowVolumeExpansion: true
+reclaimPolicy: Delete
+volumeBindingMode: Immediate
+parameters:
+  numberOfReplicas: "3"
+  staleReplicaTimeout: "2880"
+  fromBackup: ""
+  fsType: "ext4"
 ```
 
