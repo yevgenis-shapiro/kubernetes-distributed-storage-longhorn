@@ -32,17 +32,6 @@ Longhorn implements distributed block storage using containers and microservices
 ```
 
 
-🔨 Integration :
-```
-# MySQL
-# MariaDB
-# PostgresSQL
-# Cassandra
-# Kafka
-# Mongo
-# Elastic
-```
-
 🧩 Config 
 ```
 kind: StorageClass
